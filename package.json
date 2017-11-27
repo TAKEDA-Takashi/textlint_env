@@ -1,0 +1,19 @@
+{
+  "name": "textlint_env",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TAKEDA-Takashi/textlint_env.git"
+  },
+  "author": "TAKEDA Takashi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TAKEDA-Takashi/textlint_env/issues"
+  },
+  "homepage": "https://github.com/TAKEDA-Takashi/textlint_env#readme"
+}
