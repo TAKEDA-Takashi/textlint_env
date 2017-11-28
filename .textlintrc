@@ -16,6 +16,11 @@
       "nodeTypes": [
         "Html"
       ]
+    },
+    "whitelist": {
+      "allow": [
+        "/\\[https?:.+\\]/g", // はてなブログのリンク用
+      ]
     }
   }
 }

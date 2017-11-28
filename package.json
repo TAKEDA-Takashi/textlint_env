@@ -21,6 +21,7 @@
     "prh": "^5.4.3",
     "textlint": "^9.1.1",
     "textlint-filter-rule-node-types": "^1.0.1",
+    "textlint-filter-rule-whitelist": "^1.1.0",
     "textlint-rule-preset-ja-technical-writing": "^2.0.0",
     "textlint-rule-prh": "^5.0.1",
     "textlint-rule-spellcheck-tech-word": "^5.0.0"
