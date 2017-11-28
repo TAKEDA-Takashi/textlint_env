@@ -10,5 +10,12 @@
         "node_modules/prh/prh-rules/media/WEB+DB_PRESS.yml"
       ]
     }
+  },
+  "filters": {
+    "node-types": {
+      "nodeTypes": [
+        "Html"
+      ]
+    }
   }
 }
