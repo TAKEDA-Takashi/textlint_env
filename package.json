@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/TAKEDA-Takashi/textlint_env#readme",
   "devDependencies": {
-    "prh": "^5.4.3",
     "textlint": "^9.1.1",
     "textlint-filter-rule-node-types": "^1.0.1",
     "textlint-filter-rule-whitelist": "^1.1.0",

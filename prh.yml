@@ -1,0 +1,10 @@
+version: 1
+
+imports:
+  - path: ./prh-rules/media/WEB+DB_PRESS.yml
+    ignoreRules:
+      - expected: 気を付
+  - ./prh-rules/media/techbooster.yml
+  - ./dict/orthographical-variants.yml
+  - ./dict/tech-word.yml
+  - ./dict/typo.yml

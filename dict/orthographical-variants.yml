@@ -4,3 +4,6 @@ rules:
   - expected: 表記ゆれ
     patterns:
       - 表記揺れ
+  - expected: 気をつ
+    patterns:
+      - 気を付
