@@ -6,6 +6,7 @@
     "spellcheck-tech-word": true,
     "prh": {
       "rulePaths": [
+        "dict/orthographical-variants.yml",
         "node_modules/prh/prh-rules/media/techbooster.yml",
         "node_modules/prh/prh-rules/media/WEB+DB_PRESS.yml"
       ]

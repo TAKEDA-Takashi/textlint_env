@@ -1,0 +1,6 @@
+version: 1
+
+rules:
+  - expected: 表記ゆれ
+    patterns:
+      - 表記揺れ
