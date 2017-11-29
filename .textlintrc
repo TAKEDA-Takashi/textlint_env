@@ -7,6 +7,7 @@
     "prh": {
       "rulePaths": [
         "dict/orthographical-variants.yml",
+        "dict/tech-word.yml",
         "dict/typo.yml",
         "node_modules/prh/prh-rules/media/techbooster.yml",
         "node_modules/prh/prh-rules/media/WEB+DB_PRESS.yml"
