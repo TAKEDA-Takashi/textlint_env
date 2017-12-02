@@ -22,7 +22,8 @@
         "/「.*」/g"
       ],
       "whitelistConfigPaths": [
-        "./whitelist/proper-noun.yml"
+        "./whitelist/proper-noun.yml",
+        "./whitelist/ginata.yml"
       ]
     }
   }
