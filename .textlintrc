@@ -19,8 +19,10 @@
     "whitelist": {
       "allow": [
         "/\\[https?:.+\\]/g", // はてなブログのリンク用
-        "/「.*」/g",
-        "はてな",
+        "/「.*」/g"
+      ],
+      "whitelistConfigPaths": [
+        "./whitelist/proper-noun.yml"
       ]
     }
   }
