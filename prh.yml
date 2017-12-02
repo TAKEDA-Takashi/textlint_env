@@ -4,7 +4,19 @@ imports:
   - path: ./prh-rules/media/WEB+DB_PRESS.yml
     ignoreRules:
       - expected: 気を付
-  - ./prh-rules/media/techbooster.yml
+  - path: ./prh-rules/media/techbooster.yml
+    ignoreRules:
+      - expected: いわ
   - ./dict/orthographical-variants.yml
   - ./dict/tech-word.yml
   - ./dict/typo.yml
+rules:
+  # techbooster.ymlのルールを上書き
+  - expected: いわ
+    pattern: /言わ(?!れる)/
+    prh: 呼ぶ、で代替するか漢字で書かず、ひらがなで書くと読みやすくなります。
+    specs:
+      - from: 言わば
+        to:   いわば
+      - from: 言われる
+        to:   言われる
