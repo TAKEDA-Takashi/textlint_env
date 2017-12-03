@@ -4,3 +4,6 @@ rules:
   - expected: プロジェクトルート
     patterns:
       - プロジェクトルール
+  - expected: すること
+    patterns:
+      - すルこと
