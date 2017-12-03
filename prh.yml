@@ -4,6 +4,8 @@ imports:
   - path: ./prh-rules/media/WEB+DB_PRESS.yml
     ignoreRules:
       - expected: 気を付
+      - expected: 初めて
+      - expected: 始め
   - path: ./prh-rules/media/techbooster.yml
     ignoreRules:
       - expected: いわ
@@ -20,3 +22,13 @@ rules:
         to:   いわば
       - from: 言われる
         to:   言われる
+  # WEB+DB_PRESS.ymlのルールを上書き
+  - expected: 始め
+    pattern: /はじめ(?!て)/
+    specs:
+      - from: しはじめ
+        to:   し始め
+      - from: はじめから
+        to:   始めから
+      - from: はじめて
+        to:   はじめて
