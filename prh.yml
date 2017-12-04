@@ -34,7 +34,7 @@ rules:
       - from: はじめて
         to:   はじめて
   - expected: $1ほか$2
-    pattern: /([^排人])他([^ァ-ヶ社者人方の])/
+    pattern: /([^排人])他([^ァ-ヶ社者人方書の])/
     specs:
       - from: その他、
         to:   そのほか、
