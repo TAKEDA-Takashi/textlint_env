@@ -7,6 +7,7 @@ imports:
       - expected: 初めて
       - expected: 始め
       - expected: $1ほか$2
+      - expected: 方
   - path: ./prh-rules/media/techbooster.yml
     ignoreRules:
       - expected: いわ
