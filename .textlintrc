@@ -18,11 +18,8 @@
       ]
     },
     "whitelist": {
-      "allow": [
-        "/\\[https?:.+\\]/g", // はてなブログのリンク用
-        "/「.*」/g"
-      ],
       "whitelistConfigPaths": [
+        "./whitelist/generic.yml",
         "./whitelist/proper-noun.yml",
         "./whitelist/ginata.yml"
       ]
