@@ -2,3 +2,4 @@ node_modules/
 .DS_Store
 target/*
 !.gitkeep
+npm-debug.log
