@@ -27,7 +27,7 @@ rules:
         to:   言われる
   # WEB+DB_PRESS.ymlのルールを上書き
   - expected: 始め
-    pattern: /はじめ(?!て)/
+    pattern: /はじめ(?![てと])/
     specs:
       - from: しはじめ
         to:   し始め
@@ -35,6 +35,8 @@ rules:
         to:   始めから
       - from: はじめて
         to:   はじめて
+      - from: はじめとし
+        to:   はじめとし
   - expected: $1ほか$2
     pattern: /([^排人])他([^ァ-ヶ社者人方書の])/
     specs:
