@@ -8,6 +8,7 @@ imports:
       - expected: 始め
       - expected: $1ほか$2
       - expected: 方
+      - expected: テーブル
   - path: ./prh-rules/media/techbooster.yml
     ignoreRules:
       - expected: いわ
@@ -43,3 +44,8 @@ rules:
         to:   排他的
       - from: 他の
         to:   他の
+  - expected: テーブル
+    pattern:
+      - /(immu)?table/
+      - Table
+    regexpMustEmpty: $1
