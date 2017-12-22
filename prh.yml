@@ -12,6 +12,7 @@ imports:
   - path: ./prh-rules/media/techbooster.yml
     ignoreRules:
       - expected: いわ
+      - expected: いえ
   - ./dict/orthographical-variants.yml
   - ./dict/tech-word.yml
   - ./dict/typo.yml
