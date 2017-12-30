@@ -9,6 +9,7 @@ imports:
       - expected: $1ほか$2
       - expected: 方
       - expected: テーブル
+      - expected: もと$1
   - path: ./prh-rules/media/techbooster.yml
     ignoreRules:
       - expected: いわ
@@ -52,3 +53,5 @@ rules:
       - /(immu)?table/
       - Table
     regexpMustEmpty: $1
+  - pattern: /基([^数準盤板底礎本づ])/
+    expected: もと$1
