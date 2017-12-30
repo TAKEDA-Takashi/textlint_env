@@ -1,6 +1,10 @@
 version: 1
 
 imports:
+  - path: ./prh-rules/media/techbooster.yml
+    ignoreRules:
+      - expected: いわ
+      - expected: いえ
   - path: ./prh-rules/media/WEB+DB_PRESS.yml
     ignoreRules:
       - expected: 気を付
@@ -10,10 +14,6 @@ imports:
       - expected: 方
       - expected: テーブル
       - expected: もと$1
-  - path: ./prh-rules/media/techbooster.yml
-    ignoreRules:
-      - expected: いわ
-      - expected: いえ
   - ./dict/orthographical-variants.yml
   - ./dict/tech-word.yml
   - ./dict/typo.yml
