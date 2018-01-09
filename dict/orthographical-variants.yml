@@ -2,10 +2,8 @@ version: 1
 
 rules:
   - expected: 表記ゆれ
-    patterns:
-      - 表記揺れ
+    pattern: 表記揺れ
   - expected: 気をつ
-    patterns:
-      - 気を付
+    pattern: 気を付
   - expected: 紐付け
     pattern: 紐づけ

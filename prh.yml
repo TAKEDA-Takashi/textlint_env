@@ -54,8 +54,8 @@ rules:
       - /(immu)?table/
       - Table
     regexpMustEmpty: $1
-  - pattern: /基([^数準盤板底礎本づ])/
-    expected: もと$1
+  - expected: もと$1
+    pattern: /基([^数準盤板底礎本づ])/
   - expected: キャッシュ
     pattern:
       - /(mem|Elasti)?[Cc]ache(?![a-zA-Z\-])/

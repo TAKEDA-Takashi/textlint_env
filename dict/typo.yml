@@ -2,8 +2,6 @@ version: 1
 
 rules:
   - expected: プロジェクトルート
-    patterns:
-      - プロジェクトルール
+    pattern: プロジェクトルール
   - expected: すること
-    patterns:
-      - すルこと
+    pattern: すルこと
