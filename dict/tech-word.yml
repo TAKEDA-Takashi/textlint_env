@@ -3,3 +3,5 @@ version: 1
 rules:
   - expected: Java
   - expected: re:Invent
+  - expected: Athena$1
+    pattern: /\bAthen\b([^a])/
