@@ -7,3 +7,5 @@ rules:
   - expected: 気をつ
     patterns:
       - 気を付
+  - expected: 紐付け
+    pattern: 紐づけ
