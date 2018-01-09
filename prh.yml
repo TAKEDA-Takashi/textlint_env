@@ -14,6 +14,7 @@ imports:
       - expected: 方
       - expected: テーブル
       - expected: もと$1
+      - expected: キャッシュ
   - ./dict/orthographical-variants.yml
   - ./dict/tech-word.yml
   - ./dict/typo.yml
@@ -55,3 +56,7 @@ rules:
     regexpMustEmpty: $1
   - pattern: /基([^数準盤板底礎本づ])/
     expected: もと$1
+  - expected: キャッシュ
+    pattern:
+      - /(mem|Elasti)?[Cc]ache(?![a-zA-Z\-])/
+    regexpMustEmpty: $1
