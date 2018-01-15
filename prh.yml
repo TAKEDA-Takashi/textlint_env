@@ -15,6 +15,8 @@ imports:
       - expected: テーブル
       - expected: もと$1
       - expected: キャッシュ
+      - expected: アプリケーション
+      - expected: ブローカ$1
   - ./dict/orthographical-variants.yml
   - ./dict/tech-word.yml
   - ./dict/typo.yml
@@ -60,3 +62,15 @@ rules:
     pattern:
       - /(mem|Elasti)?[Cc]ache(?![a-zA-Z\-])/
     regexpMustEmpty: $1
+  - expected: アプリケーション
+    pattern: /(サンプル|モバイル|ネイティブ|iOS|Android|Web)?アプリ(?!ケ)/
+    regexpMustEmpty: $1
+    specs:
+      - from: アプリケーション
+        to:   アプリケーション
+      - from: アプリ
+        to:   アプリケーション
+  - expected: モバイルアプリ
+    pattern: /(スマフォ|スマホ)アプリ/
+  - expected: ブローカー$1
+    pattern:  /ブローカ([^ー])/
