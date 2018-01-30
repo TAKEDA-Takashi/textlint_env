@@ -17,6 +17,7 @@ imports:
       - expected: キャッシュ
       - expected: アプリケーション
       - expected: ブローカ$1
+      - pattern:  /(?:([^ム])マスター)|(?:マスター([^.]))/
   - ./dict/orthographical-variants.yml
   - ./dict/tech-word.yml
   - ./dict/typo.yml
@@ -74,3 +75,5 @@ rules:
     pattern: /(スマフォ|スマホ)アプリ/
   - expected: ブローカー$1
     pattern:  /ブローカ([^ー])/
+  - expected: $1マスタ$2
+    pattern:  /(?:(?:([^ム])マスター)|(?:マスター([^.])))(?!アカウント)/
