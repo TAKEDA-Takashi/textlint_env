@@ -18,6 +18,7 @@ imports:
       - expected: アプリケーション
       - expected: ブローカ$1
       - pattern:  /(?:([^ム])マスター)|(?:マスター([^.]))/
+      - expected: 一通り
   - ./dict/orthographical-variants.yml
   - ./dict/tech-word.yml
   - ./dict/typo.yml
