@@ -7,3 +7,7 @@ rules:
     pattern: 気を付
   - expected: 紐付け
     pattern: 紐づけ
+  - expected: トリガー
+    pattern: /トリガ(?!ー)/
+  - expected: サーバー
+    pattern: /サーバ(?!ー)/

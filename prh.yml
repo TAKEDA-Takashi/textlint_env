@@ -21,6 +21,8 @@ imports:
       - pattern:  /(?:([^ム])マスター)|(?:マスター([^.]))/
       - expected: 一通り
       - expected: 最も
+      - expected: トリガ
+      - expected: サーバ
   - ./dict/orthographical-variants.yml
   - ./dict/tech-word.yml
   - ./dict/typo.yml
