@@ -6,7 +6,6 @@
         max: 100
       }
     },
-    "spellcheck-tech-word": true,
     "prh": {
       "rulePaths": [
         "./prh.yml"
