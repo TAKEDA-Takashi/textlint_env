@@ -17,8 +17,7 @@ imports:
       - expected: キャッシュ
       - expected: アプリケーション
       - expected: ブローカ$1
-      # $マスタ$ は複数あるため、patternで除外指定
-      - pattern:  /(?:([^ム])マスター)|(?:マスター([^.]))/
+      - expected: $1マスタ$2
       - expected: 一通り
       - expected: 最も
       - expected: トリガ
@@ -80,5 +79,5 @@ rules:
     pattern: /(スマフォ|スマホ)アプリ/
   - expected: ブローカー$1
     pattern:  /ブローカ([^ー])/
-  - expected: $1マスタ$2
-    pattern:  /(?:(?:([^ム])マスター)|(?:マスター([^.])))(?!アカウント)/
+  - expected: マスター$1
+    pattern:  /マスタ([^ー])/
