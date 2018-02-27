@@ -22,6 +22,7 @@ imports:
       - expected: 最も
       - expected: トリガ
       - expected: サーバ
+      - expected: いっぱい
   - ./dict/orthographical-variants.yml
   - ./dict/tech-word.yml
   - ./dict/typo.yml
@@ -81,3 +82,5 @@ rules:
     pattern:  /ブローカ([^ー])/
   - expected: マスター$1
     pattern:  /マスタ([^ー])/
+  - expected: いっぱい
+    pattern: /一杯[^目]/
