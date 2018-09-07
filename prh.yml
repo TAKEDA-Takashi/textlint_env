@@ -23,6 +23,7 @@ imports:
       - expected: トリガ
       - expected: サーバ
       - expected: いっぱい
+      - expected: UNIX
   - ./dict/orthographical-variants.yml
   - ./dict/tech-word.yml
   - ./dict/typo.yml
@@ -84,3 +85,7 @@ rules:
     pattern:  /マスタ([^ー])/
   - expected: いっぱい
     pattern: /一杯[^目]/
+  - expected: UNIX$1
+    pattern:  /Unix([^系])/i
+  - expected: Unix系
+    pattern:  /UNIX系/i
