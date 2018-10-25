@@ -11,3 +11,5 @@ rules:
     pattern: /トリガ(?!ー)/
   - expected: サーバー
     pattern: /サーバ(?!ー)/
+  - expected: フィルター
+    pattern: /フィルタ(?!ー|リング)/

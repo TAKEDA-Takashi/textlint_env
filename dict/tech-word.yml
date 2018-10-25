@@ -5,3 +5,4 @@ rules:
   - expected: re:Invent
   - expected: Athena$1
     pattern: /\bAthen\b([^a])/
+  - expected: CloudTrail
