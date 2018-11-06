@@ -25,6 +25,7 @@ imports:
       - expected: フィルタ
       - expected: いっぱい
       - expected: UNIX
+      - expected: パラメータ
   - ./dict/orthographical-variants.yml
   - ./dict/tech-word.yml
   - ./dict/typo.yml
@@ -90,3 +91,5 @@ rules:
     pattern:  /Unix([^系])/i
   - expected: Unix系
     pattern:  /UNIX系/i
+  - expected: パラメーター$1
+    pattern:  /パラメータ([^ー])/
