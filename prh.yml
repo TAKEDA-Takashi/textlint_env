@@ -26,6 +26,7 @@ imports:
       - expected: いっぱい
       - expected: UNIX
       - expected: パラメータ
+      - expected: リスナ
   - ./dict/orthographical-variants.yml
   - ./dict/tech-word.yml
   - ./dict/typo.yml
@@ -93,3 +94,5 @@ rules:
     pattern:  /UNIX系/i
   - expected: パラメーター$1
     pattern:  /パラメータ([^ー])/
+  - expected: リスナー$1
+    pattern:  /リスナ([^ー])/
