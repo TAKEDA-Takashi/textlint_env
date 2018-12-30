@@ -27,6 +27,9 @@ imports:
       - expected: UNIX
       - expected: パラメータ
       - expected: リスナ
+      - expected: クロージャ
+      - expected: レイテンシ
+      - expected: レイヤ
   - ./dict/orthographical-variants.yml
   - ./dict/tech-word.yml
   - ./dict/typo.yml
@@ -96,3 +99,9 @@ rules:
     pattern:  /パラメータ([^ー])/
   - expected: リスナー$1
     pattern:  /リスナ([^ー])/
+  - expected: クロージャー$1
+    pattern:  /クロージャ([^ー])/
+  - expected: レイテンシー$1
+    pattern:  /レイテンシ([^ー])/
+  - expected: レイヤー$1
+    pattern:  /レイヤ([^ー])/
