@@ -109,8 +109,13 @@ rules:
   - expected: レイヤー$1
     pattern:  /レイヤ([^ー])/
   - expected: クラスター$1
-    pattern:  /クラスタ([^ー])/
-  - expected: ラスター$1
-    pattern:  /ラスタ([^ー])/
+    pattern:  /クラスタ(?!リング)([^ー])/
+    specs:
+      - from: クラスタ構成
+        to:   クラスター構成
+      - from: クラスタリング
+        to:   クラスタリング
+  - expected: クラスタリング
+    pattern:  /クラスターリング/
   - expected: ドライバー$1
     pattern:  /ドライバ([^ー])/
