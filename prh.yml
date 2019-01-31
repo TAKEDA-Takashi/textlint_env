@@ -30,6 +30,9 @@ imports:
       - expected: クロージャ
       - expected: レイテンシ
       - expected: レイヤ
+      - expected: クラスタ
+      - expected: ラスタ
+      - expected: ドライバ
   - ./dict/orthographical-variants.yml
   - ./dict/tech-word.yml
   - ./dict/typo.yml
@@ -105,3 +108,9 @@ rules:
     pattern:  /レイテンシ([^ー])/
   - expected: レイヤー$1
     pattern:  /レイヤ([^ー])/
+  - expected: クラスター$1
+    pattern:  /クラスタ([^ー])/
+  - expected: ラスター$1
+    pattern:  /ラスタ([^ー])/
+  - expected: ドライバー$1
+    pattern:  /ドライバ([^ー])/
