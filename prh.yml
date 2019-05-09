@@ -50,7 +50,7 @@ rules:
       - from: 言われる
         to:   言われる
   - expected: こと
-    pattern:  /(記|大|仕|返|無|食|見|議|当)?事(?!情|件|前|後|象|例|実|体|態|項|務|業|柄)/
+    pattern:  /(記|大|仕|返|無|食|見|議|当|有)?事(?!情|件|前|後|象|例|実|体|態|項|務|業|柄|故)/
     regexpMustEmpty: $1
     prh: 漢字で書かず、ひらがなで書くと読みやすくなります
     specs:
@@ -66,6 +66,10 @@ rules:
         to:   事柄
       - from: 当事
         to:   当事
+      - from: 有事
+        to:   有事
+      - from: 事故
+        to:   事故
   # WEB+DB_PRESS.ymlのルールを上書き
   - expected: 始め
     pattern: /はじめ(?![てと])/
