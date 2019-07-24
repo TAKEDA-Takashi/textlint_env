@@ -36,6 +36,7 @@ imports:
       - expected: ドライバ
       - expected: デリバリ
       - expected: センサ
+      - expected: Web
   - ./dict/orthographical-variants.yml
   - ./dict/tech-word.yml
   - ./dict/typo.yml
@@ -147,3 +148,8 @@ rules:
     pattern:  /デリバリ([^ー])/
   - expected: センサー$1
     pattern:  /センサ([^ー])/
+  - expected: Web
+    pattern:
+      - ウェブ
+      - ウェッブ
+      - /web(?!pack)/
