@@ -37,6 +37,7 @@ imports:
       - expected: デリバリ
       - expected: センサ
       - expected: Web
+      - expected: 付け足
   - ./dict/orthographical-variants.yml
   - ./dict/tech-word.yml
   - ./dict/typo.yml
@@ -153,3 +154,11 @@ rules:
       - ウェブ
       - ウェッブ
       - /web(?!pack)/
+  - expected: 付け足
+    pattern: /(見)?つけた/
+    regexpMustEmpty: $1
+    specs:
+      - from: つけたす
+        to:   付け足す
+      - from: 見つけた
+        to:   見つけた
