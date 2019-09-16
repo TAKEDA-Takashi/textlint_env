@@ -19,12 +19,12 @@
   "homepage": "https://github.com/TAKEDA-Takashi/textlint_env#readme",
   "devDependencies": {
     "npm-check-updates": "^3.1.23",
-    "textlint": "^11.2.3",
+    "textlint": "^11.3.1",
     "textlint-filter-rule-comments": "^1.2.2",
     "textlint-filter-rule-node-types": "^1.0.1",
     "textlint-filter-rule-whitelist": "^2.0.0",
-    "textlint-rule-preset-ja-technical-writing": "^3.1.2",
-    "textlint-rule-prh": "^5.2.0",
+    "textlint-rule-preset-ja-technical-writing": "^3.1.3",
+    "textlint-rule-prh": "^5.2.1",
     "textlint-rule-spellchecker": "^2.2.1"
   }
 }
