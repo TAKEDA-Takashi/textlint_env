@@ -38,6 +38,7 @@ imports:
       - expected: センサ
       - expected: Web
       - expected: 付け足
+      - expected: ハイパーバイザ
   - ./dict/orthographical-variants.yml
   - ./dict/tech-word.yml
   - ./dict/typo.yml
@@ -162,3 +163,5 @@ rules:
         to:   付け足す
       - from: 見つけた
         to:   見つけた
+  - expected: ハイパーバイザー
+    pattern:  /ハイパーバイザ([^ー])/
