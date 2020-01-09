@@ -39,6 +39,8 @@ imports:
       - expected: Web
       - expected: 付け足
       - expected: ハイパーバイザ
+      - expected: プロバイダ
+      - expected: ワーカ
   - ./dict/orthographical-variants.yml
   - ./dict/tech-word.yml
   - ./dict/typo.yml
@@ -165,3 +167,7 @@ rules:
         to:   見つけた
   - expected: ハイパーバイザー
     pattern:  /ハイパーバイザ([^ー])/
+  - expected: プロバイダー
+    pattern:  /プロバイダ([^ー])/
+  - expected: ワーカー
+    pattern:  /ワーカ([^ー])|\bworker\b/
