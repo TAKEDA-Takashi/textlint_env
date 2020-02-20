@@ -6,3 +6,5 @@ rules:
   - expected: Athena$1
     pattern: /\bAthen\b([^a])/
   - expected: CloudTrail
+  - expected: ウィザード
+    pattern: ウイザード

@@ -41,6 +41,8 @@ imports:
       - expected: ハイパーバイザ
       - expected: プロバイダ
       - expected: ワーカ
+      - expected: 慌
+      - expected: $1ている
   - ./dict/orthographical-variants.yml
   - ./dict/tech-word.yml
   - ./dict/typo.yml
@@ -171,3 +173,5 @@ rules:
     pattern:  /プロバイダ([^ー])/
   - expected: ワーカー
     pattern:  /ワーカ([^ー])|\bworker\b/
+  - expected: $1ている
+    pattern: /([^捨当立慌])てる/
