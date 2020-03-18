@@ -43,6 +43,7 @@ imports:
       - expected: ワーカ
       - expected: 慌
       - expected: $1ている
+      - expected: ビルダ
   - ./dict/orthographical-variants.yml
   - ./dict/tech-word.yml
   - ./dict/typo.yml
@@ -175,3 +176,5 @@ rules:
     pattern:  /ワーカ([^ー])|\bworker\b/
   - expected: $1ている
     pattern: /([^捨当立慌])てる/
+  - expected: ビルダー
+    pattern:  /ビルダ([^ー])/
