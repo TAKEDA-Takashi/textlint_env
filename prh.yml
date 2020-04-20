@@ -44,6 +44,7 @@ imports:
       - expected: 慌
       - expected: $1ている
       - expected: ビルダ
+      - expected: 委譲
   - ./dict/orthographical-variants.yml
   - ./dict/tech-word.yml
   - ./dict/typo.yml
