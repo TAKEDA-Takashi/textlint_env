@@ -45,6 +45,9 @@ imports:
       - expected: $1ている
       - expected: ビルダ
       - expected: 委譲
+      - expected: メーリングリスト
+      - expected: プレーヤ
+      - expected: ヘッダ
   - ./dict/orthographical-variants.yml
   - ./dict/tech-word.yml
   - ./dict/typo.yml
@@ -179,3 +182,5 @@ rules:
     pattern: /([^捨当立慌])てる/
   - expected: ビルダー
     pattern:  /ビルダ([^ー])/
+  - expected: ヘッダー
+    pattern:  /ヘッダ([^ー])|ヘッタ|ヘッター/
