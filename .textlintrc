@@ -3,7 +3,10 @@
     "preset-ja-technical-writing": {
       "no-exclamation-question-mark": false,
       "sentence-length": {
-        max: 100
+        "max": 100
+      },
+      "ja-no-successive-word": {
+        "allow": ["…"]
       }
     },
     "prh": {
