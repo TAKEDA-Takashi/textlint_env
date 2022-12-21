@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/TAKEDA-Takashi/textlint_env#readme",
   "devDependencies": {
-    "npm-check-updates": "^15.2.0",
-    "textlint": "^12.2.1",
+    "npm-check-updates": "^16.6.0",
+    "textlint": "^12.2.4",
     "textlint-filter-rule-comments": "^1.2.2",
     "textlint-filter-rule-node-types": "^1.1.0",
     "textlint-filter-rule-whitelist": "^2.0.0",
